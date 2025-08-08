@@ -1,13 +1,5 @@
-import {
-  Animated,
-  Dimensions,
-  StyleProp,
-  StyleSheet,
-  Text,
-  View,
-  ViewStyle,
-} from "react-native";
-import { FC, ReactNode, useRef, use, useEffect } from "react";
+import { Animated, Dimensions, StyleSheet } from "react-native";
+import { FC, ReactNode, useRef, useEffect } from "react";
 
 interface Props {
   visibility: boolean;
