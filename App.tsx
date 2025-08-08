@@ -9,6 +9,8 @@ import FourthStepSpring from "./FourthStepSpring";
 import FifthStepParallel from "./FifthStepParallel";
 import SixthStepSequence from "./SixthStepSequence";
 import SeventhStepModal from "./SeventhStepModal";
+import EighthStepRest from "./EighthStepRest";
+import NinthStepPointerEvents from "./NinthStepPointerEvents";
 
 export default function App() {
   return (
@@ -21,7 +23,9 @@ export default function App() {
         {/* <FourthStepSpring /> */}
         {/* <FifthStepParallel /> */}
         {/* <SixthStepSequence /> */}
-        <SeventhStepModal />
+        {/* <SeventhStepModal /> */}
+        {/* <EighthStepRest /> */}
+        <NinthStepPointerEvents />
         <StatusBar style="auto" />
       </View>
     </SafeAreaView>
